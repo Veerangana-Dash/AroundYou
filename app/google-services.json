@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "577107653662",
+    "firebase_url": "https://justvishapp.firebaseio.com",
+    "project_id": "justvishapp",
+    "storage_bucket": "justvishapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:577107653662:android:f38ad38d18ca8884",
+        "android_client_info": {
+          "package_name": "com.veeradash.justvish"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "577107653662-ugt84k0043egjuthu4ma376rin16qq4b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.veeradash.justvish",
+            "certificate_hash": "2ee549cb61436385a5b74b19632b9d368fac9f86"
+          }
+        },
+        {
+          "client_id": "577107653662-o6jkoc8p36vss7f7hvslvuq1up99q2n4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0n3czUfgpRYkM_AdqoHGywBF89zcphjo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "577107653662-o6jkoc8p36vss7f7hvslvuq1up99q2n4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

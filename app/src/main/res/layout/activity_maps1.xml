@@ -1,0 +1,121 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frame"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MapsActivity1">
+
+
+    <android.support.v4.widget.DrawerLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/mapsxml">
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:map="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.veeradash.justvish.MapsActivity1" />
+
+
+    <android.support.design.widget.NavigationView
+        app:headerLayout="@layout/header"
+        android:id="@+id/nav"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        app:itemTextColor="@color/darkgray"
+        app:itemIconTint="@color/darkgray"
+        app:menu="@menu/drawermenu"
+        android:layout_gravity="start" />
+
+
+
+
+    </android.support.v4.widget.DrawerLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:elevation="10dp"
+        android:background="@drawable/white_border"
+        android:id="@+id/rellayout1">
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="360dp"
+            android:id="@+id/ic_magnify"
+            android:src="@drawable/ic_magnify"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           android:paddingLeft="10dp"
+            android:layout_centerVertical="true"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:id="@+id/input_search"
+            android:background="@null"
+            android:hint="Enter Location"
+            android:imeOptions="actionSearch"
+            android:inputType="text"/>
+
+
+    </RelativeLayout>
+
+
+    <Button
+        android:layout_width="129dp"
+        android:layout_height="48dp"
+        android:background="#000"
+        android:textColor="#0ff"
+        android:layout_gravity="left|bottom"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="1dp"
+        android:padding="10dp"
+        android:paddingRight="10dp"
+        android:text="Places to Eat"
+        android:id="@+id/eat"/>
+
+    <Button
+        android:layout_width="134dp"
+        android:layout_height="48dp"
+        android:background="#000"
+        android:textColor="#0ff"
+        android:layout_gravity="left|bottom"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="139dp"
+        android:padding="10dp"
+        android:paddingRight="10dp"
+        android:text="Drop A Pin"
+        android:id="@+id/drop"/>
+
+    <Button
+        android:layout_width="129dp"
+        android:layout_height="48dp"
+        android:background="#000"
+        android:textColor="#0ff"
+        android:layout_gravity="right|bottom"
+        android:text="Places to Visit"
+        android:padding="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="20dp"
+        android:paddingRight="10dp"
+        android:id="@+id/visit"/>
+
+
+</FrameLayout>
+
+
+
+
